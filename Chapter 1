@@ -1,0 +1,42 @@
+First chapter of the book includes basics of Digital Image Processing. The first topic covered is 'What is Digital Image Processing'. To understand it, one first needs to understand what exactly is 'an image'. 
+
+An Image can be defined as a two-dimensional function, f(x, y).
+where, 
+     x, y, are spatial coordinates (plane coordinates)
+     f is an amplitude of the intensity or grey level of the image at any point of the coordinates (x, y).   
+
+When x, y, and the intensity values of f are all finite, discrete quantities, we call the image a digital image.
+
+The field of Digital Image Processing refers to processing digital images by means of a digital computer. 
+A pixel is an image element or picture element, mainly used to denote the elements of a digital image, and a number of finite elements (pixels) compose an image. 	
+
+Vision is the most advanced of our senses, so it is not surprising that images play the most important role in human perception. 
+
+The goal of Computer Vision is to use computers to emulate human vision, including learning and being able to make inferences and take actions based on visual inputs. 
+Computer Vision itself is a branch of Artificial Intelligence whose objective is to emulate human intelligence.
+The area of Image Analysis is in between image processing and computer vision. 
+
+One Paradigm of Image Analysis, 
+	- Low-level Processes, where both inputs and outputs are images, and such processes involve primitive operations such as Image Preprocessing to reduce noise, contrast enhancement, and image sharpening. 
+	- Mid-level Processes, involves tasks such as Image Segmentation (partitioning an image into regions or objects), description of those objects to reduce them to a form suitable for computer processing, and classification (recognition) of individual objects. In Mid-level, inputs generally are images, but their outputs are attributes extracted from those (inputs) images (e.g., edges, contours, and the identity of individual objects).
+	- High-level Processes, involves "making sense" of an ensemble of recognized objects in image analysis, performing the cognitive functions normally associated with human vision. 
+
+Then, there are Fundamental steps in Digital Image Processing, given below:
+  - Image Acquisition, involves preprocessing, such as scaling.
+  - Image Enhancement, a subjective approach of modifying an image the way enhanced result (final image) is more suitable than the original, for a specific application. 
+  - Image Restoration, an objective approach that deals with improving the appearance of an image. Restoration techniques tend to be based on mathematical and probabilistic models of image degradation(). 
+  - Wavelets, for representing images in various degrees of resolution. Uses include, image data compression and for pyramidal representation. 
+  - Compression, contain techniques that are used to reduce the storage required to save the image, or the bandwidth required to transmit it.
+  - Morphology, a broad set of image processing operations that process images based on shapes. Morphological processing deals with the tools for extracting image components that are useful in the representation and description of shapes.
+  - Segmentation partitions an image into its constituent parts or objects. 
+  - Feature extraction consists of feature detection (refers to finding the features in an image, region, or boundary) and feature description (assigns quantitative attributes to the detected features). 
+  - Image Pattern Classification, a process that assigns labels to the objects (in images) based on their feature descriptors. For example, vehicle, green, ball, etc.,. 
+
+Finally, in the first chapter of the book, I studied components of the Image Processing System, such as:
+Two subsystems are required to acquire digital images:
+	- Sensor (that responds to energy radiated by the object we want to image)
+	- Digitizer (that converts the output of a physical sensing device into digital form)
+
+Specialized Image Processing Hardware requires:
+	- Digitizer
+	- Hardware that performs other primitive operations, such as an Arithmetic Logic Unit (ALU), that performs arithmetic and logical operations in parallel on entire images. 
