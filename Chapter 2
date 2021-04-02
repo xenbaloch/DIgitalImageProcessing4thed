@@ -1,2 +1,48 @@
-Chapter 2 of the book focuses on the Digital Image Fundamentals. It's not possible to easily summarize all the contnent in Chapter 2 and from now on. So, I suggest getting a copy of the book!
+Chapter 2 of the book focuses on the Digital Image Fundamentals.  
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+In Visual Perception/ Image Formation, 
+The field of digital image processing is built on a foundation of mathematics, but human intuition and analysis often play a role in the choice of one technique over another, 
+and this choice of different techniques is a subjective matter, based on visual judgments.
+
+In an ordinary photographic camera, focal length of the lens is fixed, and focusing at various distances is achieved by varying the distance between the lens and the imaging plane 
+(a plane where the image is projected, i.e., on the sensor ). 
+
+In the human eye, distance between the center of the lens and imaging sensor (the retina) is fixed, and the focal length needed to achieve proper focus is obtained by varying the shape of the lens.
+
+Experimental evidence indicates that subjective brightness (intensity as perceived by the human visual system) is a logarithmic function of the light intensity incident on the eye. 
+[Where, logarithmic function, an inverse function to exponentiation, (exponentiation is the mathematical operation, written as 'b^n', involving two numbers, the base 'b' and the exponent or power 'n') 
+and logarithm, in logarithmic function, is the power to which a number must be raised to obtain some other number, such as to obtain a number 100, one needs to raise 10 to the power of 2, i.e., log 100 = 2]
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+In Image Sampling and Quantization, 
+Goal: To generate digital images from sensed data
+
+We need Sampling and Quantization to convert continuous sensed data into a digital format.
+
+An Image may be continuous with respect to x-y coordinates, and also in Amplitude. To digitalize it, we have to sample the function in both coordinates and also in amplitude. 
+Digitizing coordinate values is called Sampling, whereas digitizing amplitude values in called Quantization.
+
+In practice, sampling accuracy is determined by factors such as the optical components used in the system. 
+
+Number of both samples and discrete intensity levels used in sampling and quantization largely determine the degree of quality of digital image.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+In Representing Digital Images,
+In general, the value of digital image at any coordinates (x, y) is denoted as f(x, y), where x and y are integers. 
+
+The section of real plane spanned by the coordinates (x, y) of an image is called the spatial domain, with x and y being referred to as spatial variables or spatial coordinates.
+
+Dynamic Range of imaging system is a ratio of maximum measurable intensity to the minimum detectable intensity level in the system. The upper limit, saturation., lower limit, noise. 
+
+Image Contrast is the difference in intensity between the highest and lowest intensity levels in an image. 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Overall, there is a lot more to cover in this chapter which can't be expressod as just points. Thus far I recommend getting a copy of the book will be highly benificial. I'm not sure
+if I will be able to make notes and update notes here, but if I could, I'll update it. My reason to study this book is voluntarily and I might be picky in reading chapters needed 
+to strengthen my concepts of Image Processing which will later assist me in carring out my research work related to Digital Image Processing. 
 
